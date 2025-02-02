@@ -28,8 +28,10 @@ function main() {
     quote.innerHTML = info[0].quote;
     author.innerHTML = info[0].author;
   };
+
 */
-  newQuote.onclick = function() {   
+
+  newQuote.onclick = function() {
       genQuote(API);
   };
 
