@@ -20,7 +20,7 @@ function main() {
     quote.innerHTML = info[0].quote;
     author.innerHTML = info[0].author;
   };
-
+/*
   const genQuote_2 = async () => {
     const API_2 = `https://api.api-ninjas.com/v1/quotes?X-Api-Key=${api_key}&category=${select.value}`;
     let response = await fetch(API_2);
@@ -28,13 +28,9 @@ function main() {
     quote.innerHTML = info[0].quote;
     author.innerHTML = info[0].author;
   };
-
-  newQuote.onclick = function() {
-    if (select.value === 'random') {
+*/
+  newQuote.onclick = function() {   
       genQuote(API);
-    } else {
-      genQuote_2();
-    }
   };
 
   copyBtn.onclick = function() {
